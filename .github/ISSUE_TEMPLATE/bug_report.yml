@@ -1,0 +1,24 @@
+name: Bug report
+description: A screenshot gives wrong JSON or fails.
+labels: [bug]
+body:
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: >-
+        Drag the original screenshot into this box (not a cropped or resized
+        copy), so the problem can be reproduced.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message
+      description: >-
+        If there was one: the error shown on the screenshot's card, or in the
+        browser console (F12). Leave it empty if the JSON was just wrong, and
+        say what is wrong instead.
+      render: text
+    validations:
+      required: false
