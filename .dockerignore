@@ -1,0 +1,7 @@
+.git
+**/__pycache__
+*.md
+compose.yaml
+Dockerfile
+site
+.github
